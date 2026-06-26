@@ -8,13 +8,13 @@
 		<style>
 			body { font-family: system-ui, sans-serif; scroll-behavior: smooth; }
 			.hero { background: linear-gradient(135deg, #1f2937, #374151); color: white; position: relative; }
-			<!-- .hero::before { -->
-				<!-- content: ''; -->
-				<!-- position: absolute; top: 0; left: 0; right: 0; bottom: 0; -->
-				<!-- background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png') center/cover no-repeat; -->
-				<!-- opacity: 0.08; z-index: 0; -->
-			<!-- } -->
-			<!-- .hero-content { position: relative; z-index: 1; } -->
+			.hero::before {
+				content: '';
+				position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+				background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png') center/cover no-repeat;
+				opacity: 0.08; z-index: 0;
+			}
+			.hero-content { position: relative; z-index: 1; }
 			.nav-link { transition: all 0.2s; }
 			.nav-link:hover { color: #ef4444; }
 		</style>
@@ -170,6 +170,13 @@
 				<h2 class="text-3xl font-semibold mb-6 text-gray-800">Experience</h2>
 				<p class="text-gray-600">Full details available in my <a href="Frank-W-Johns-Resume.pdf" class="text-blue-600 hover:underline">Resume (PDF)</a></p>
 			</section>
+			
+			<div class="text-center mt-12">
+				<a href="https://github.com/frankwjohns13" 
+				   class="inline-block bg-gray-800 hover:bg-gray-700 text-white font-medium px-8 py-4 rounded-lg text-lg">
+					View My GitHub Profile
+				</a>
+			</div>
 
 		</div>
 	</body>
