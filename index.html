@@ -1,51 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Frank W. Johns | Cybersecurity & Law Enforcement Professional</title>
-		<script src="https://cdn.tailwindcss.com"></script>
-		<style>
-			body { font-family: system-ui, sans-serif; scroll-behavior: smooth; }
-			.hero { background: linear-gradient(135deg, #1f2937, #374151); color: white; position: relative; }
-			.hero::before {
-				content: '';
-				position: absolute; top: 0; left: 0; right: 0; bottom: 0;
-				background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png') center/cover no-repeat;
-				opacity: 0.08; z-index: 0;
-			}
-			.hero-content { position: relative; z-index: 1; }
-			.nav-link { transition: all 0.2s; }
-			.nav-link:hover { color: #ef4444; }
-		</style>
-	</head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frank W. Johns | Cybersecurity & Law Enforcement Professional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: system-ui, sans-serif; scroll-behavior: smooth; }
+        .hero { background: linear-gradient(135deg, #1f2937, #374151); color: white; position: relative; }
+        .hero::before {
+            content: '';
+            position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png') center/cover no-repeat;
+            opacity: 0.08; z-index: 0;
+        }
+        .hero-content { position: relative; z-index: 1; }
+        .nav-link { transition: all 0.2s; }
+        .nav-link:hover { color: #ef4444; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
 
-	<body class="bg-gray-50 text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-white shadow sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-6 py-4 flex flex-wrap gap-6 text-sm font-medium">
+            <a href="#about" class="nav-link text-gray-600 hover:text-gray-900">About</a>
+            <a href="#skills" class="nav-link text-gray-600 hover:text-gray-900">Skills</a>
+            <a href="#certifications" class="nav-link text-gray-600 hover:text-gray-900">Certifications</a>
+            <a href="#projects" class="nav-link text-gray-600 hover:text-gray-900">Projects & Learning</a>
+            <a href="#tryhackme" class="nav-link text-gray-600 hover:text-gray-900">TryHackMe</a>
+            <a href="#experience" class="nav-link text-gray-600 hover:text-gray-900">Experience</a>
+            <a href="Frank-W-Johns-Resume.pdf" class="nav-link text-red-600 hover:text-red-700 font-semibold">📄 Resume (PDF)</a>
+        </div>
+    </nav>
 
-		<!-- Navigation -->
-		<nav class="bg-white shadow sticky top-0 z-50">
-			<div class="max-w-4xl mx-auto px-6 py-4 flex flex-wrap gap-6 text-sm font-medium">
-				<a href="#about" class="nav-link text-gray-600 hover:text-gray-900">About</a>
-				<a href="#skills" class="nav-link text-gray-600 hover:text-gray-900">Skills</a>
-				<a href="#certifications" class="nav-link text-gray-600 hover:text-gray-900">Certifications</a>
-				<a href="#projects" class="nav-link text-gray-600 hover:text-gray-900">Projects & Learning</a>
-				<a href="#tryhackme" class="nav-link text-gray-600 hover:text-gray-900">TryHackMe Badges</a>
-				<a href="#experience" class="nav-link text-gray-600 hover:text-gray-900">Experience</a>
-				<a href="Frank-W-Johns-Resume.pdf" class="nav-link text-red-600 hover:text-red-700 font-semibold">📄 Resume (PDF)</a>
-			</div>
-		</nav>
+    <!-- Hero -->
+    <header class="hero py-20 text-center">
+        <div class="hero-content max-w-4xl mx-auto px-6">
+            <img src="headshot.jpeg" alt="Frank W. Johns" class="w-56 h-56 mx-auto rounded-full border-4 border-white shadow-2xl mb-6 object-cover">
+            <h1 class="text-5xl font-bold mb-2">Frank W. Johns</h1>
+            <p class="text-2xl mb-6 flex items-center justify-center gap-3">🇺🇸 U.S. Navy Veteran • Law Enforcement Professional • Cybersecurity Student</p>
+            <p class="max-w-2xl mx-auto text-lg">Dedicated public safety professional advancing into Cybersecurity and Information Assurance.</p>
+        </div>
+    </header>
 
-		<!-- Hero -->
-		<header class="hero py-20 text-center">
-			<div class="hero-content max-w-4xl mx-auto px-6">
-				<img src="headshot.jpeg" alt="Frank W. Johns" class="w-56 h-56 mx-auto rounded-full border-4 border-white shadow-2xl mb-6 object-cover">
-				<h1 class="text-5xl font-bold mb-2">Frank W. Johns</h1>
-				<p class="text-2xl mb-6 flex items-center justify-center gap-3">U.S. Navy Veteran • Law Enforcement Professional • Cybersecurity Student</p>
-				<p class="max-w-2xl mx-auto text-lg">Dedicated public safety professional advancing into Cybersecurity and Information Assurance.</p>
-			</div>
-		</header>
-
-		<div class="max-w-4xl mx-auto px-6 py-12 space-y-16">
+    <div class="max-w-4xl mx-auto px-6 py-12 space-y-16">
 
 			<!-- About Me -->
 			<section id="about">
@@ -85,7 +84,7 @@
 			</section>
 
 			<!-- Certifications -->
-			<section id="certifications">
+			<section class="mb-12">
 				<h2 class="text-3xl font-semibold mb-6 text-gray-800">Certifications</h2>
 		
 				<div class="flex flex-wrap gap-8 justify-center">
@@ -150,36 +149,25 @@
 					<a href="https://github.com/frankwjohns13/CompTIA-Project-Plus-Notes" class="block p-6 bg-white rounded-xl shadow hover:shadow-md transition">CompTIA Project+ Notes</a>
 					<a href="https://github.com/frankwjohns13/TryHackMe-Writeups" class="block p-6 bg-white rounded-xl shadow hover:shadow-md transition">TryHackMe Writeups</a>
 				</div>
-				
-				<div class="text-center mt-12">
-				   <a href="https://github.com/frankwjohns13" 
-				      class="inline-block bg-gray-800 hover:bg-gray-700 text-white font-medium px-8 py-4 rounded-lg text-lg">
-					   View My GitHub Profile
-				   </a>
-			   </div>
-				
 			</section>
+		
+        <!-- TryHackMe -->
+        <section id="tryhackme">
+            <h2 class="text-3xl font-semibold mb-6 text-gray-800">TryHackMe Profile</h2>
+            <div class="text-center">
+                <a href="https://tryhackme.com/p/WickedWizard?tab=badges" target="_blank"
+                   class="inline-flex items-center gap-3 bg-gray-800 hover:bg-gray-700 text-white px-8 py-4 rounded-xl text-lg font-medium">
+                    <span>View My TryHackMe Profile & Badges</span>
+                </a>
+                <p class="mt-4 text-sm text-gray-600">Hands-on cybersecurity training rooms, paths, and challenges</p>
+            </div>
+        </section>
 
-			<!-- TryHackMe -->
-			<section id="tryhackme">
-				<h2 class="text-3xl font-semibold mb-6 text-gray-800">TryHackMe Profile</h2>
-				<div class="text-center">
-					<a href="https://tryhackme.com/p/WickedWizard?tab=badges" target="_blank" 
-					   class="inline-flex items-center gap-3 bg-gray-800 hover:bg-gray-700 text-white px-8 py-4 rounded-xl text-lg font-medium">
-						<span>View My TryHackMe Profile</span>
-						<!-- Optional: Add badge image here once you have it -->
-					</a>
-					<p class="mt-4 text-sm text-gray-600">Hands-on cybersecurity training rooms, paths, and challenges</p>
-				</div>
-			</section>
-
-			<!-- Experience -->
-			<section id="experience">
-				<h2 class="text-3xl font-semibold mb-6 text-gray-800">Experience</h2>
-				<p class="text-gray-600">Full details available in my <a href="Frank-W-Johns-Resume.pdf" class="text-blue-600 hover:underline">Resume (PDF)</a></p>
-			</section>
-
-
-		</div>
-	</body>
+        <!-- Experience -->
+        <section id="experience">
+            <h2 class="text-3xl font-semibold mb-6 text-gray-800">Experience</h2>
+            <p class="text-gray-600">Full details available in my <a href="Frank-W-Johns-Resume.pdf" class="text-blue-600 hover:underline">Resume (PDF)</a></p>
+        </section>
+    </div>
+</body>
 </html>
