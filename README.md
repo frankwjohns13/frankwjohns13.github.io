@@ -26,6 +26,9 @@
 - **[Security+ Notes](https://github.com/frankwjohns13/CompTIA-Security-Plus-Notes)**
 - **[Project+ Notes](https://github.com/frankwjohns13/CompTIA-Project-Plus-Notes)**
 
+### TryHackMe Badges
+- **TryHackMe**: [https://tryhackme.com/p/WickedWizard?tab=badges](https://tryhackme.com/p/WickedWizard?tab=badges)
+
 ### Connect With Me
 - **Portfolio**: [https://frankwjohns13.github.io](https://frankwjohns13.github.io)
 - **Resume** → [Download PDF](Frank-W-Johns-Resume.pdf)
