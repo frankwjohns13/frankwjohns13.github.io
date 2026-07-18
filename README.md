@@ -13,6 +13,7 @@
 ![CompTIA A+](https://images.credly.com/size/340x340/images/f6d62c5d-1e1d-4de6-92ee-8dc8c80b1c7b/blob)
 ![CompTIA Network+ Badge](https://images.credly.com/size/340x340/images/c70ba73e-3c8a-46fa-9d60-4a9af94ad662/blob)
 ![CompTIA Security+ Badge](https://images.credly.com/size/340x340/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob)
+![CompTIA Project+ Badge](https://images.credly.com/size/340x340/images/16e139a1-0b3d-4bef-a0c6-56356ad944a6/blob)
 
 - CompTIA A+, Network+, Security+
 - CompTIA CIOS & CSIS
