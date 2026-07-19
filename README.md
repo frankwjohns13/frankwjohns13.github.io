@@ -21,12 +21,18 @@
 - CompTIA A+, Network+, Security+, Project+
 - Crisis Intervention Team (CIT)
 
-### My Study Notes & Projects
+### My CompTIA Study Notes
 - **[A+ Core 1 Notes](https://github.com/frankwjohns13/Core-1-220-1201)**
 - **[A+ Core 2 Notes](https://github.com/frankwjohns13/Core-2-220-1202)**
 - **[Network+ Notes](https://github.com/frankwjohns13/CompTIA-Network-Plus-Notes)**
 - **[Security+ Notes](https://github.com/frankwjohns13/CompTIA-Security-Plus-Notes)**
 - **[Project+ Notes](https://github.com/frankwjohns13/CompTIA-Project-Plus-Notes)**
+
+### Other Study Notes
+
+
+### TryHackMe Room Index
+
 
 ### Connect With Me
 - **Portfolio**: [https://frankwjohns13.github.io](https://frankwjohns13.github.io)
