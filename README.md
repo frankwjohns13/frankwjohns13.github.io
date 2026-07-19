@@ -17,8 +17,8 @@
 ![CompTIA Security+ Badge](https://images.credly.com/size/340x340/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob)
 ![CompTIA Project+ Badge](https://images.credly.com/size/340x340/images/16e139a1-0b3d-4bef-a0c6-56356ad944a6/blob)
 
-- CompTIA A+, Network+, Security+
 - CompTIA CIOS & CSIS
+- CompTIA A+, Network+, Security+, Project+
 - Crisis Intervention Team (CIT)
 
 ### My Study Notes & Projects
