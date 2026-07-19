@@ -28,11 +28,9 @@
 - **[Security+ Notes](https://github.com/frankwjohns13/CompTIA-Security-Plus-Notes)**
 - **[Project+ Notes](https://github.com/frankwjohns13/CompTIA-Project-Plus-Notes)**
 
-### Other Study Notes
-
-
-### TryHackMe Room Index
-
+### Other Notes
+- **Cybersecurity**:
+- **TryHackMe**: [https://github.com/frankwjohns13/TryHackMe-Writeups](TryHackMe Writeup Index)
 
 ### Connect With Me
 - **Portfolio**: [https://frankwjohns13.github.io](https://frankwjohns13.github.io)
