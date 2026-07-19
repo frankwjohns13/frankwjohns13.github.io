@@ -10,6 +10,8 @@
 - Combining real-world security operations experience with CompTIA certifications and hands-on IT knowledge to transition into cybersecurity and information technology roles.
 
 ### Certifications
+![CompTIA CSIS](https://images.credly.com/size/340x340/images/8090280a-311f-425f-a1cd-a32770b5a444/CompTIA_CSIS.png)
+![CompTIA CIOS](https://images.credly.com/size/340x340/images/7f7657b9-4d1b-4b8d-b5ee-5fdf6d7ccd71/04294_CompTIA_Cert_Badges_Specialist_-_CIOS.png)
 ![CompTIA A+](https://images.credly.com/size/340x340/images/f6d62c5d-1e1d-4de6-92ee-8dc8c80b1c7b/blob)
 ![CompTIA Network+ Badge](https://images.credly.com/size/340x340/images/c70ba73e-3c8a-46fa-9d60-4a9af94ad662/blob)
 ![CompTIA Security+ Badge](https://images.credly.com/size/340x340/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob)
