@@ -30,7 +30,7 @@
 
 ### Other Notes
 - **Cybersecurity**:
-- **TryHackMe Writeups**: [TryHackMe Index] (https://github.com/frankwjohns13/TryHackMe-Writeups)
+- **TryHackMe Writeups**: [TryHackMe Index](https://github.com/frankwjohns13/TryHackMe-Writeups)
 
 ### Connect With Me
 - **Portfolio**: [https://frankwjohns13.github.io](https://frankwjohns13.github.io)
