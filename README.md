@@ -28,7 +28,7 @@
 
 ### Connect With Me
 - **Portfolio**: [https://frankwjohns13.github.io](https://frankwjohns13.github.io)
-- **Resume** → [Download PDF](Frank-W-Johns-Resume.pdf)
+- **Resume**: [Download PDF](Frank-W-Johns-Resume.pdf)
 - **Credly Profile**: [View All Badges](https://www.credly.com/users/frank-johns.92b29216)
 - **TryHackMe**: [TryHackMe - Badges](https://tryhackme.com/p/WickedWizard?tab=badges)
 
