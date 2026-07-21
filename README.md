@@ -30,6 +30,7 @@
 
 ### Other Notes
 - **Cybersecurity**:
+- **LPI Linux Essentials**: [Linux Essentials](https://github.com/frankwjohns13/LPI-Linux-Essentials/blob/main/README.md)
 - **TryHackMe Writeups**: [TryHackMe Index](https://github.com/frankwjohns13/TryHackMe-Writeups)
 
 ### Connect With Me
