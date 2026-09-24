@@ -27,6 +27,7 @@
 - **[Network+ Notes](https://github.com/frankwjohns13/CompTIA-Network-Plus-Notes)**
 - **[Security+ Notes](https://github.com/frankwjohns13/CompTIA-Security-Plus-Notes)**
 - **[Project+ Notes](https://github.com/frankwjohns13/CompTIA-Project-Plus-Notes)**
+- **[Data+ Notes](https://github.com/frankwjohns13/CompTIA-Data-Plus/)**
 
 ### Other Notes
 - **Cybersecurity**:
