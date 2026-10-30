@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+    background-color: black;
+    color: #00FF00;
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.intro-line {
+    opacity: 0;
+    animation: appear 1s forwards;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="introduction"></div>
+
+<script>
+const lines = [
+    "Downloading banking information...",
+    "Downloading payment card information...",
+	"Downloading passwords and passkeys...",
+    "Downloading contacts...",
+    "You've been pwned!",
+	"Just kidding, scan QR codes at your own risk for:",
+	"Curiosity killed the cat,",
+	"But satisfaction brought him back."
+];
+
+const container = document.getElementById("introduction");
+
+lines.forEach((line, index) => {
+    setTimeout(() => {
+        const paragraph = document.createElement("p");
+        paragraph.className = "intro-line";
+        paragraph.textContent = line;
+        container.appendChild(paragraph);
+    }, index * 2000);
+});
+</script>
+
+</body>
+</html>
