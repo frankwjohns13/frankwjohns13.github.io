@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curiosity Check</title>
+  <style>
+    body {
+      background-color: black;
+      color: #00FF00;
+      font-family: "Courier New", monospace;
+      font-size: 28px;
+      padding: 30px;
+      line-height: 1.5;
+    }
+    .intro-line {
+      opacity: 0;
+      animation: appear 0.8s forwards;
+      margin: 12px 0;
+    }
+    .bottom-text {
+      position: fixed;
+      bottom: 25px;
+      width: 100%;
+      left: 0;
+      text-align: center;
+    }
+    .bottom-text a {
+      color: #ff4444;
+      font-size: 22px;
+      text-decoration: none;
+    }
+    .bottom-text a:hover {
+      text-decoration: underline;
+    }
+    @keyframes appear {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+<div id="introduction"></div>
+
+<script>
+const lines = [
+  "Scanning for interesting data...",
+  "Looking through open tabs...",
+  "Checking recent downloads...",
+  "Searching for saved passwords...",
+  "You've been pwned!",
+  "",
+  "Just kidding.",
+  "Curiosity killed the cat...",
+  "but satisfaction brought him back.",
+  "",
+  "Be careful what you click."
+];
+
+const container = document.getElementById("introduction");
+lines.forEach((line, index) => {
+  setTimeout(() => {
+    const paragraph = document.createElement("p");
+    paragraph.className = "intro-line";
+    paragraph.textContent = line;
+    container.appendChild(paragraph);
+  }, index * 1800);
+});
+</script>
+
+<div class="bottom-text">
+  <a href="https://frankwjohns13.github.io/?ref=bad-url">My Cybersecurity Journey</a>
+</div>
+
+<script data-goatcounter="https://frankwjohns13.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+  
+</body>
+</html>
